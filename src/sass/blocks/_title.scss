@@ -1,0 +1,91 @@
+.title {
+    color: $text-color;
+    &_promo {
+        color: white;
+    }
+    &_gradient {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: transparent;    
+        background-clip: text;
+        background-image: linear-gradient(45deg, #F77248, #F2244B);
+    }
+    &_fz62 {
+        font-weight: 700;
+        font-size: 62px;
+        line-height: 73px;
+    }
+    &_fz45 {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 53px;
+    }
+    &_fz36 {
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 43px;
+    }
+    &_fz32 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    &_fz20opacity {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        opacity: .5;
+    }
+    &_fz21_b {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000;
+        }
+        &_fz16_b {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 21px;
+            color: #000;
+            }
+
+    &_fz20 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    &_fz18 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        &_b{
+            color: #000;
+        }
+    }
+    &_fz16 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    &_fz12 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    &_fz14-footer {
+        color: #737C91;
+        opacity: .7;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    &_fz14-sub-footer {
+        color: #737C91;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+}
+

@@ -1,0 +1,297 @@
+@media (max-width: 426px) {  //////////////ТЕЛЕФОН/////////////
+    .jusanInvestApp {
+        height: 2247px;
+        margin-top: 100px;
+    }
+    .jusanInvestAppBlock {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 32px;
+    }
+    .containerAppUp {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .containerAppButton {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 25px;
+
+    }
+    .containerAppInvest {
+        height: 431px;
+    }
+    .containerAppRadar {
+        width: 399px;
+        margin-top: 25px;
+    }
+    .containerAppAnalytics {
+        width: 399px;
+    }
+    .containerAppFreeTraining {
+        width: 399px;
+        margin-top: 25px;
+    }
+    .containerAppInvest .investTitle {
+        margin-top: 32px;
+        padding-left: 20px;
+    }
+    .containerAppInvest .investSubTitle {
+        padding-left: 20px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+        width: 300px;
+    }
+    .containerAppInvest .investImg {
+        margin-top: 124px;
+        display: grid;
+        justify-content: center;
+        padding-left: 20px;
+    }
+    .investImg {
+        img {
+            width: 378px;
+        }
+    }
+    .containerAppRadar .radarTitle {
+        margin-top: 32px;
+        padding-left: 20px;
+    }
+    .containerAppRadar .radarSubTitle {
+        padding-left: 20px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+        width: 350px;
+    }
+    .containerAppRadar .radarImg {
+        display: grid;
+        justify-content: end;
+        margin-top: 150px;
+    }
+    .containerAppAnalytics .analyticsTitle {
+        margin-top: 32px;
+        padding-left: 20px;
+    }
+    .containerAppAnalytics .analyticsSubTitle {
+        padding-left: 20px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+        width: 350px;
+    }
+    .containerAppAnalytics .analyticsImg {
+        display: grid;
+        justify-content: center;
+        margin-top: 205px;
+        img {
+            width: 350px;
+        }
+    }
+    .containerAppFreeTraining .freeTrainingTitle {
+        margin-top: 32px;
+        padding-left: 20px;
+    }
+    .containerAppFreeTraining .freeTrainingSubTitle {
+        padding-left: 20px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+        width: 350px;
+    }
+    .containerAppFreeTraining .freeTrainingImg {
+        display: grid;
+        margin-top: 40px;
+        padding-left: 1px;
+        img {
+            width: 400px;
+        }
+    }
+
+}
+@media (min-width: 728px) { //////////////ПЛАНШЕТ/////////////
+
+    .jusanInvestApp {
+        height: 1133px;
+        margin-top: 100px;
+    }
+    .juniorChildAccount {
+        height: 579px;
+        margin-top: 32px;
+    }
+    .containerAppUp {
+        display: grid;
+        grid-template-columns: 50% 20px 47%;
+        margin-top: 32px;
+    }
+    .containerAppInvest .investTitle {
+        margin-top: 32px;
+        padding-left: 20px;
+    }
+    .containerAppInvest .investSubTitle {
+        padding-left: 20px;
+        width: 355px;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    .containerAppRadar .radarTitle {
+        margin-top: 32px;
+        padding-left: 20px;
+    }
+    .containerAppRadar .radarSubTitle {
+        padding-left: 20px;
+        width: 350px;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    .containerAppInvest .investImg {
+        margin-top: 10px;
+        display: grid;
+        justify-content: center;
+        padding-left: 50px;
+        margin-top: 73px;
+        img {
+            width: 433px;
+        }
+    }
+    .containerAppRadar .radarImg {
+        margin-top: 10px;
+        display: grid;
+        justify-content: center;
+        padding-left: 15px;
+        margin-top: 120px;
+        img {
+            width: 333px;
+        }
+    }
+    .containerAppButton {
+        display: grid;
+        grid-template-columns: 50% 20px 47%;
+        margin-top: 32px;
+    }
+    .containerAppAnalytics .analyticsTitle {
+        margin-top: 32px;
+        padding-left: 20px;
+    }
+    .containerAppAnalytics .analyticsSubTitle {
+        padding-left: 20px;
+        width: 350px;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    .containerAppFreeTraining .freeTrainingTitle {
+        margin-top: 32px;
+        padding-left: 20px;
+    }
+    .containerAppFreeTraining .freeTrainingSubTitle {
+        padding-left: 20px;
+        width: 310px;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    .containerAppAnalytics .analyticsImg {
+        display: grid;
+        justify-content: center;
+        margin-top: 213px;
+        margin-left: 0;
+        img {
+            width: 335px;
+        }
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .jusanInvestAppBlock{
+            .titelApp {
+                font-size: 32;
+                font-weight: 900;
+            }
+        }
+        .containerAppButton {
+            display: grid;
+            grid-template-columns: 800px 20px 460px;
+            margin-top: 32px;
+        }
+        .containerAppRadar .radarImg {
+            margin-top: 10px;
+            display: grid;
+            justify-content: center;
+            padding-left: 276px;
+            margin-top: 120px;
+        }
+        .containerAppInvest .investImg img {
+            width: 520px;
+            margin-top: -56px;
+        }
+        .containerAppInvest .investSubTitle {
+            padding-left: 20px;
+            width: 355px;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 36px;
+            margin-top: 10px;
+            width: 500px;
+        }
+        .containerAppRadar .radarSubTitle {
+            padding-left: 20px;
+            width: 355px;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 36px;
+            margin-top: 10px;
+            width: 500px;
+        }
+        .containerAppAnalytics .analyticsSubTitle {
+            padding-left: 20px;
+            width: 355px;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 36px;
+            margin-top: 10px;
+            width: 500px;
+        }
+        .containerAppAnalytics .analyticsTitle {
+            margin-top: 32px;
+            padding-left: 20px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .containerAppInvest .investTitle {
+            margin-top: 32px;
+            padding-left: 20px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .containerAppRadar .radarTitle {
+            margin-top: 32px;
+            padding-left: 20px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .containerAppFreeTraining .freeTrainingTitle {
+            margin-top: 32px;
+            padding-left: 20px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .containerAppFreeTraining .freeTrainingSubTitle {
+            padding-left: 20px;
+            width: 355px;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 32px;
+            margin-top: 10px;
+            width: 400px;
+        }
+    }

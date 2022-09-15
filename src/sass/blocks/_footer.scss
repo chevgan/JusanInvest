@@ -1,0 +1,151 @@
+
+.footer {
+    height: 709px;
+}
+.footerСategories {
+    background-color: white;
+    height: 491px;
+    margin-top: 82px;
+}
+
+.footerTitel {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    column-gap: 93px;
+}
+.footerСategoriesTitle {
+    margin-top: 60px;
+}
+.footerSubTitle {
+    display: grid;
+    gap: 16px;
+    margin-top: 16px;
+}
+hr {
+    margin-top: 13px;
+    opacity: .1;
+    }
+
+.footerLinks {
+    height: 219px;
+    background-color: #F5F5F5;
+}
+.footerDescr {
+    height: 98px;
+}
+
+.footerSocial {
+    height: 121px;
+}
+.footerSocialIcon{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .sectionsFooterIcon {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-self: start;
+        gap: 36px;
+        margin-top: 40px;
+    }
+    .wpNumber {
+        a{
+            padding-left: 12px;
+            justify-self: start;
+            font-weight: 700;
+            font-size: 21px;
+            line-height: 25px;
+        }
+    }
+    .wpNumberIcon {
+        img {
+            padding-left: 12px;
+        }
+
+    }
+    .storeIcon {
+        justify-self: end;
+        margin-top: 35px;
+        img {
+            padding-left: 10px;
+        }
+
+    }
+}
+.footerDescr {
+    display: grid;
+    grid-template-columns: 700px 1fr;
+}
+.footerDescrCopyright{ 
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-self: start;
+    align-content: center;
+}
+.footerDescrCopyrightTitle {
+    padding-left: 12px;
+}
+.footerDescrDisclaimer{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-self: end;
+    align-content: center;
+    gap: 15px;
+}
+
+p {
+  line-height: 1.4;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 1px 1px 0;
+}
+
+a:link {
+  color: #737C91;
+}
+
+a:visited {
+  color: #737C91;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #737C91;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #cdfeaa00;
+  outline: none;
+  text-decoration: none;
+  padding: 1px 1px 0;
+}
+
+a:active {
+  background: #26530100;
+  color: #CDFEAA;
+}
+.storeIcon {
+    cursor: pointer;
+}
+.wpNumberIcon {
+    cursor: pointer;
+    button:before {
+        content:'';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: rgba(255,255,255,0.3);
+        border-radius: 5px;
+        transition: all 2s ease;
+    }
+    
+    button:hover:before {
+        height: 42px;
+    }
+}

@@ -1,0 +1,81 @@
+.jusanInvestAppDownload {
+    height: 800px;
+    margin-top: 15px;
+}
+.jusanInvestAppDownloadBlock {
+
+}
+
+.containerAppUpDownload {
+    display: grid;
+    grid-template-columns: 1fr 30px 1fr;
+    margin-top: 32px;
+}
+.containerAppDownload {
+    background-color: #fff;
+    border-radius: 22px;
+    min-height: 511px;
+
+    .containerStep {
+        display: grid;
+        margin-top: 135px;
+        padding-left: 40px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 24px;
+        .stepOne {
+            display: flex;
+            align-items: center;
+            grid-row: 1;      
+
+        }
+        .stepTwo {
+            display: flex;
+            align-items: center;
+            grid-row: 2;
+        }
+        .stepThree {
+            display: flex;
+            align-items: center;
+            grid-row: 3;
+        }
+        .stepOneTitle {
+            padding-left: 20px;
+            width: 400px;
+            span {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                opacity: .5;
+            }
+        }
+    }
+}
+.containerAppUpDownloadVideo {
+    background-color: #fff;
+    border-radius: 22px;
+    min-height: 511px;
+    grid-column: 3;
+    video {
+        max-width: 700px;
+        width: 100%;
+        border-radius: 22px;
+        margin: auto;
+        cursor: pointer;
+    }
+    .videoTitle {
+        margin-top: 32px;
+        padding-left: 53px;
+    }
+    .videoSubTitle {
+        padding-left: 53px;
+        width: 450px;
+        position: absolute;
+    }
+    .videoImg {
+        display: grid;
+        justify-content: end;
+        margin-top: 84px;
+    }
+}
+

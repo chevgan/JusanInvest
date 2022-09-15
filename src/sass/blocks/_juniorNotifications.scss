@@ -1,0 +1,38 @@
+.juniorNotifications {
+    height: 511px;
+    margin-top: 56px;
+
+}
+.juniorNotificationsBlock {
+    background: white;
+    border-radius: 22px;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: 1fr;
+    align-items: start;
+}
+
+.juniorNotificationsTitleBlock {
+    position: relative;
+    grid-column: 2;
+    z-index: 2;
+}
+
+.juniorNotificationsImg {
+    padding-left: 43px;
+    grid-row: 1/2;
+}
+.juniorNotificationsBtn {
+    grid-column: 2;
+    margin-top: 32px;
+
+}
+.juniorNotificationsTitle {
+    grid-column: 2;
+    margin-top: 125px;
+
+}
+.juniorNotificationsSubTitle {
+    grid-column: 2;
+    margin-top: 12px;
+}

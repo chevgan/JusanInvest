@@ -1,0 +1,33 @@
+@media (min-width: 992px) {
+    .promoPhoneImgGoogle {
+        display: none;
+    }
+    .promoPhoneImgApple {
+        display: none;
+    }
+}
+//////////////////////////////////////////////////|
+@media (max-width: 1200px) {
+
+}
+//////////////////////////////////////////////////| Планшет
+@media (max-width: 992px) {
+
+    
+}
+
+@media (max-width: 768px) {
+
+    .carouselCompany {
+        display: none;
+    }
+
+}
+
+@media (max-width: 576px) { ///// Мобила
+
+    .carouselCompany {
+        display: none;
+    }
+
+}

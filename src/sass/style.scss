@@ -1,0 +1,53 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/fonts';
+
+
+@import 'base/variables';
+@import 'base/mixins';
+@import 'blocks/title';
+@import 'blocks/button';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/juniorNotifications';
+@import 'blocks/juniorLearning';
+@import 'blocks/juniorChildAccount';
+@import 'blocks/juniorMonitoringAccount';
+@import 'blocks/jusanInvestApp';
+@import 'blocks/callToAction';
+@import 'blocks/jusanInvestAppDownload';
+@import 'blocks/carouselCompany';
+@import 'blocks/faq';
+@import 'blocks/footer';
+@import 'blocks/footerMob';
+
+
+@import 'blocks/mediaPromo';
+@import 'blocks/mediaNotifications';
+@import 'blocks/mediajuniorLearning';
+@import 'blocks/mediajuniorMonitoringAccount';
+@import 'blocks/mediajuniorChildAccount';
+@import 'blocks/mediajusanInvestApp';
+@import 'blocks/mediacallToAction';
+@import 'blocks/mediacontainerAppUpDownload';
+@import 'blocks/mediafaq';
+
+
+
+*{
+    font-family: 'Gilroy';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F3F3F3;
+    margin: 0 auto;
+}
+
+
+input, textarea {outline:none;}
+input:active, textarea:active {outline:none;}
+:focus {outline:none;}
+textarea {resize:none;}
+textarea {resize:vertical;}
+textarea {resize:horizontal;}

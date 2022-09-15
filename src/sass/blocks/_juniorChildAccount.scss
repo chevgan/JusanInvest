@@ -1,0 +1,57 @@
+.juniorChildAccount {
+    height: 833px;
+    margin-top: 32px;
+}
+.juniorChildAccountBlock {
+    display: grid;
+    grid-template-columns: 612px 1fr;  
+    grid-template-rows: 1fr;
+    align-items: start;
+}
+
+.juniorChildAccountTitleBlock {
+    grid-column: 2;
+    padding-left: 83px;
+    margin-top: 178px;
+    width: 430px;
+}
+
+.juniorChildAccountImg {
+    width: 611px;
+    height: 735px;
+    grid-column: 1;
+    grid-row: 1/4;
+    margin-top: 48px;
+    padding-left: 94px;
+}
+.juniorChildAccountImgPeople {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+
+}
+.people1 {
+    padding-top: 67px;
+}
+.people2 {
+    
+}
+.people3 {
+
+}
+.people4 {
+    position: absolute;
+    padding-left: 272px;
+    margin-top: 335px;
+
+}
+.juniorChildAccountBtn {
+    grid-column: 2;
+    margin-top: 32px;
+}
+.juniorChildAccountTitle {
+
+}
+.juniorChildAccountSubTitle {
+    grid-column: 2;
+}

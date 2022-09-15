@@ -1,0 +1,287 @@
+.footerMob {
+    display: flex;
+    margin-top: 100px;
+}
+.sectionFaq {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    .title_fz18 {
+        color: #000;
+    }
+}
+.accordionTitle {
+    display: grid;
+    gap: 15px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.accordion__header::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    content: "";
+  }
+  
+  .accordion__item_show .accordion__header::after {
+    transform: rotate(-180deg);
+  }
+
+  .accordion__item {
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 15%);
+  }
+
+  .accordion__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    color: black;
+    font-size: 21px;
+    font-weight: 700;
+    background-color: #F6F6F6;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-out;
+  }
+
+  .accordion__header::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    background-image: url("../../icons/arrowUp.svg");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    content: "";
+  }
+
+  .accordion__item_show .accordion__header::after {
+    transform: rotate(-180deg);
+  }
+
+  .accordion__header:hover {
+    background-color: #ecebeb;
+  }
+
+  .accordion__item_hidden .accordion__header {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+
+  .accordion__body {
+    padding: 0.75rem 1rem;
+    overflow: hidden;
+    background: #F6F6F6;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    .titelApp {
+        font-size: 15px;
+        font-weight: 500;
+    }
+  }
+
+  .accordion__item:not(.accordion__item_show) .accordion__body {
+    display: none;
+  }
+  .accordion__header_m {
+    font-size: 14px;
+    color: #737C91;
+  }
+  .accordion__header_m::after {
+    background-image: url("../../icons/arrowUpFooter.svg");
+  }
+  .accordion__item_m {
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem #F5F5F5;
+  }
+
+
+
+
+  @media (max-width: 426px){
+    .footerMob {
+        display: block;
+    }
+    .footer {
+        display: none;
+    }
+    .wpNumberIcon {
+        img {
+            width: 40px;
+        }
+    }
+    .storeIcon {
+        img {
+            width: 40px;
+        }
+    }
+    .footerDescrCopyright {
+        img {
+            width: 40px;
+        }
+    }
+    .wpNumber {
+        img {
+            width: 40px;
+        }
+    }
+    .footerDescrCopyright {
+        display: grid;
+        grid-template-columns: 380px;
+        grid-template-rows: 1fr;
+        justify-self: start;
+        align-content: center;
+    }
+    .footerDescrCopyright {
+        img {
+            position: absolute;
+            margin-top: 0;
+            margin-left: 0;
+        }
+        .title_fz12 {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            padding-left: 35px;
+        }
+    }
+
+    .footerSocialIcon .sectionsFooterIcon {
+        display: grid;
+        grid-template-columns: 254px;
+        justify-self: start;
+        gap: 12px;
+        margin-top: 40px;
+    }
+    .wpNumber 
+    img {
+        width: 40px;
+        padding-left: 12px;
+    }
+    .footerDescrCopyright img {
+        position: absolute;
+        margin-top: 1px;
+        margin-left: 9px;
+    }
+    .footerDescrCopyright .title_fz12 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        padding-left: 51px;
+    }
+    .footerDescrDisclaimer {
+        position: absolute;
+        margin-left: 9px;
+        margin-top: 54px;
+        display: grid;
+        grid-template-columns: 1fr 79px;
+        justify-self: start;
+        align-content: start;
+        gap: 15px;
+    }
+    .storeIcon img {
+        width: 79px;
+        margin-left: 34px;
+        margin-top: 13px;
+    }
+    .storeIcon {
+        display: none;
+    }
+    .footerDescrCopyright .title_fz12 {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        padding-left: 51px;
+        width: 298px;
+    }
+    .footerDescrCopyright {
+        display: grid;
+        grid-template-columns: 313px;
+        grid-template-rows: 1fr;
+        justify-self: start;
+        align-content: center;
+    }
+    .footerDescr {
+        height: 87px;
+    }
+    .carouselCompany {
+        display: none;
+    }
+}
+
+  @media (min-width: 728px){
+    .carouselCompany {
+        display: none;
+    }
+    .footerMob {
+        display: block;
+    }
+    .footer {
+        display: none;
+    }
+    .storeIcon {
+        display: none;
+    }
+    .footerSocialIcon .sectionsFooterIcon {
+        display: grid;
+        grid-template-columns: 242px 253px;
+        justify-self: start;
+        gap: 32px;
+        margin-top: 40px;
+    }
+    .footerSocialIcon .storeIcon img {
+        padding-left: 4px;
+        width: 131px;
+        padding-top: 7px;
+    }
+    .footerDescrDisclaimer {
+        position: absolute;
+        margin-left: 9px;
+        margin-top: 54px;
+        display: grid;
+        grid-template-columns: 1fr 79px;
+        justify-self: start;
+        align-content: start;
+        gap: 15px;
+    }
+    .footerDescrDisclaimer {
+        position: absolute;
+        margin-left: 42px;
+        margin-top: 72px;
+        display: grid;
+        grid-template-columns: 1fr 79px;
+        justify-self: start;
+        align-content: start;
+    
+
+
+}
+  @media (min-width: 1400px){
+    .footerMob {
+        display: none;
+    }
+    .footer {
+        display: block;
+    }
+    }
+    .carouselCompany {
+        display: block;
+    }
+    .storeIcon {
+        display: block;
+    }
+    
+}

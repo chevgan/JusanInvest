@@ -1,0 +1,25 @@
+.callToAction {
+    display: block;
+    margin-top: 32px;
+}
+.callToActionBlock {
+        display: block;
+        margin-top: 90px;
+        .callToActionSubTitle {
+            margin-top: 98px;
+            margin: 0 auto;
+            text-align: center
+        }
+        
+        .callToActionTitle {
+            margin-top: 12px;
+            text-align: center;
+        }
+        
+        .callToActionBtn{
+            margin-top: 32px;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+}

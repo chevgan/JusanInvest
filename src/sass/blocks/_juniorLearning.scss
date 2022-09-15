@@ -1,0 +1,39 @@
+.juniorLearning {
+    height: 511px;
+    margin-top: 32px;
+}
+.juniorLearningBlock {
+    background: white;
+    border-radius: 22px;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: 1fr;
+    align-items: start;
+}
+
+.juniorLearningTitleBlock {
+    position: absolute;
+    grid-column: 1;
+    z-index: 2;
+    padding-left: 125px;
+}
+
+.juniorLearningImg {
+    position: relative;
+    grid-column: 2;
+}
+.juniorLearningBtn {
+    grid-column: 1;
+    margin-top: 32px;
+
+}
+.juniorLearningTitle {
+    grid-column: 1;
+    margin-top: 125px;
+
+}
+.juniorLearningSubTitle {
+    grid-column: 1;
+    margin-top: 12px;
+
+}

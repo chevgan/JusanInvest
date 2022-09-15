@@ -1,0 +1,227 @@
+    @media (max-width: 426px) {  //////////////ТЕЛЕФОН/////////////
+        .containerAppUpDownload {
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-top: 32px;
+        }
+        .containerAppDownload {
+            min-height: 70px;
+        }
+        .containerAppDownload {
+            background-color: #fff;
+        
+            .containerStep {
+                display: grid;
+                margin-top: 135px;
+                padding-left: 40px;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+                gap: 24px;
+                .stepOne {
+                    display: flex;
+                    align-items: center;
+                    grid-row: 1;      
+        
+                }
+                .stepTwo {
+                    display: flex;
+                    align-items: center;
+                    grid-row: 2;
+                }
+                .stepThree {
+                    display: flex;
+                    align-items: center;
+                    grid-row: 3;
+                }
+                .stepOneTitle {
+                    padding-left: 20px;
+                    width: 400px;
+                    span {
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 24px;
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+        .stepOne {
+            display: flex;
+            align-items: center;
+            grid-row: 1;
+            margin-left: 0;
+            padding-left: 0;
+            width: 320px;
+            img {
+                width: 60px;
+            }
+        }
+        .containerAppDownload .containerStep {
+            display: grid;
+            margin-top: 34px;
+            padding-left: 24px;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            gap: 24px;
+            width:  350px;
+        }
+        .containerAppDownload .containerStep .stepTwo {
+            display: flex;
+            align-items: center;
+            grid-row: 2;
+            margin-left: 0;
+            padding-left: 0;
+            width: 320px;
+            img {
+                width: 60px;
+            }
+        }
+        .containerAppDownload .containerStep .stepThree {
+            display: flex;
+            align-items: center;
+            grid-row: 3;
+            margin-left: 0;
+            padding-left: 0;
+            width: 320px;
+            img {
+                width: 60px;
+            }
+        }
+
+        .containerAppUpDownloadVideo {
+            grid-column: 1/3;
+        }
+        .jusanInvestAppDownloadBlock {
+            margin-top: 100px;
+            margin-left: 18px;
+            .titelApp  {
+                font-size: 27px;
+            }
+            .titelSubApp {
+                font-size: 16px;
+            }
+        }
+        .containerAppUpDownloadVideo {
+            grid-column: 1/3;
+            margin-top: 27px;
+            min-height: 395px;
+        }
+        .jusanInvestAppDownloadBlock {
+            margin-top: 100px;
+            margin-left: 0;
+        }
+}
+    @media (min-width: 728px) { //////////////ПЛАНШЕТ/////////////
+        .containerAppDownload .containerStep {
+            display: grid;
+            margin-top: 81px;
+            padding-left: 30px;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 66px;
+        }
+        .containerAppUpDownload {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            margin-top: 32px;
+        }
+        .containerAppUpDownloadVideo {
+            background-color: #fff;
+            border-radius: 22px;
+            min-height: 511px;
+            grid-column: 1;
+            margin-top: 28px;
+        }
+        .jusanInvestAppDownload {
+            height: 800px;
+            margin-top: 60px;
+        }
+    }
+    
+    @media (min-width: 1400px) {
+        .jusanInvestAppDownload {
+            height: 800px;
+            margin-top: 15px;
+        }
+        .jusanInvestAppDownloadBlock {
+        
+        }
+        
+        .containerAppUpDownload {
+            display: grid;
+            grid-template-columns: 1fr 30px 1fr;
+            margin-top: 32px;
+        }
+        .containerAppDownload {
+            background-color: #fff;
+            border-radius: 22px;
+            min-height: 511px;
+        
+            .containerStep {
+                display: grid;
+                margin-top: 135px;
+                padding-left: 40px;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                gap: 24px;
+                .stepOne {
+                    display: flex;
+                    align-items: center;
+                    grid-row: 1;      
+        
+                }
+                .stepTwo {
+                    display: flex;
+                    align-items: center;
+                    grid-row: 2;
+                }
+                .stepThree {
+                    display: flex;
+                    align-items: center;
+                    grid-row: 3;
+                }
+                .stepOneTitle {
+                    padding-left: 20px;
+                    width: 400px;
+                    span {
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 24px;
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+        .containerAppUpDownloadVideo {
+            background-color: #fff;
+            border-radius: 22px;
+            min-height: 511px;
+            grid-column: 3;
+            video {
+                max-width: 700px;
+                width: 100%;
+                border-radius: 22px;
+                margin: auto;
+            }
+            .videoTitle {
+                margin-top: 32px;
+                padding-left: 53px;
+            }
+            .videoSubTitle {
+                padding-left: 53px;
+                width: 450px;
+                position: absolute;
+            }
+            .videoImg {
+                display: grid;
+                justify-content: end;
+                margin-top: 84px;
+            }
+        }
+        
+        .containerAppUpDownloadVideo {
+
+        margin-top: 0px;
+        }        
+    }

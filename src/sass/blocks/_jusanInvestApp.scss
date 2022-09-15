@@ -1,0 +1,101 @@
+.jusanInvestApp {
+    height: 1155px;
+    margin-top: 100px;
+}
+.titelSubApp{
+    margin-top: 5px;
+    opacity: .5;
+}
+// Up
+.containerAppUp {
+    display: grid;
+    grid-template-columns: 1fr 30px 1fr;
+    margin-top: 32px;
+}
+.containerAppInvest {
+    background-color: #fff;
+    border-radius: 22px;
+    min-height: 511px;
+    grid-column: 1;
+    .investTitle {
+        margin-top: 32px;
+        padding-left: 53px;
+    }
+    .investSubTitle {
+        padding-left: 53px;
+        width: 450px;
+    }
+    .investImg {
+        margin-top: 10px;
+        display: grid;
+        justify-content: center;
+        padding-left: 50px;
+    }
+}
+.containerAppRadar {
+    background-color: #fff;
+    border-radius: 22px;
+    min-height: 511px;
+    grid-column: 3;
+    .radarTitle {
+        margin-top: 32px;
+        padding-left: 53px;
+    }
+    .radarSubTitle {
+        padding-left: 53px;
+        width: 450px;
+        position: absolute;
+    }
+    .radarImg {
+        display: grid;
+        justify-content: end;
+        margin-top: 84px;
+    }
+}
+// Button
+.containerAppButton {
+    display: grid;
+    grid-template-columns: 708px 30px 1fr;
+    margin-top: 34px;
+}
+.containerAppAnalytics {
+    background-color: #fff;
+    border-radius: 22px;
+    grid-column: 1;
+    min-height: 511px;
+    .analyticsTitle {
+        margin-top: 32px;
+        padding-left: 53px;
+    }
+    .analyticsSubTitle {
+        padding-left: 53px;
+        width: 600px;
+        position: absolute;
+    }
+    .analyticsImg {
+        display: grid;
+        justify-content: center;
+        margin-top: 107px;
+    }
+}
+.containerAppFreeTraining {
+    background-color: #21212B;
+    border-radius: 22px;
+    grid-column: 3;
+    min-height: 511px;
+    .freeTrainingTitle {
+        margin-top: 32px;
+        padding-left: 53px;
+    }
+    .freeTrainingSubTitle {
+        padding-left: 53px;
+        width: 381px;
+        position: absolute;
+        color: white;
+    }
+    .freeTrainingImg {
+        display: grid;
+        margin-top: 40px;
+        padding-left: 1px;
+    }
+}

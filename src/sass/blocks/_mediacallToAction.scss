@@ -1,0 +1,28 @@
+@media (max-width: 426px) {  //////////////ТЕЛЕФОН/////////////
+    .callToActionBlock .callToActionTitle {
+        margin-top: 21px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 25px;
+    }
+    
+}
+    @media (min-width: 728px) { //////////////ПЛАНШЕТ/////////////
+        .callToActionBlock .callToActionTitle {
+            margin-top: 12px;
+            text-align: center;
+            font-size: 41px;
+        }
+        .callToActionBlock .callToActionBtn {
+            margin-top: 32px;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%,0);
+            font-size: 20px;
+            font-weight: 500;
+            width: 363px;
+            height: 46px;
+        }
+    }
+    

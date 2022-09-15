@@ -1,0 +1,35 @@
+.btn {
+    background: $main-color;
+    display: inline-block;
+    border: none;
+    border-radius: 36px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 12px 24px 12px 24px;
+    text-transform: uppercase;
+    &:hover {
+        color: #ffffff;
+    }
+    
+}
+/* /*     padding: 12px 48px 12px 24px; */
+
+/*      &::after {
+        content: url('../../icons/arrow-white.png');
+        transition: 0.3s; 
+        top: 50%;
+        transform: translateY(-50%);
+        background-repeat: no-repeat;
+        background-size: 22px;
+        margin-left: 5px;
+    }
+    &:hover::after{
+
+        transition: 0.3s;
+        margin-left: 14px;
+    }
+} */
