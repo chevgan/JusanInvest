@@ -1,43 +1,48 @@
 .carouselCompany {
-    height: 250px;
-    display: flex;
-    @media (max-width: 993px) { display: none;}
+  height: 250px;
+  display: flex;
+  margin-top: 80px;
 }
-
 .titleCarouselCompany {   
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    text-align: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .carouselCompanySlider{
-    display: flex;
-    margin: 0 auto;
+  display: flex;
+  margin: 0 auto;
 }
 
 
 .marquee-wrapper {
-    margin-top: 35px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-  }
-  
-  .marquee-wrapper:after {
-    position: absolute;
-    content: ' ';
-    right: 0;
-    top: 0;
-    background-image: linear-gradient(to right, transparent, #fff);
-  }
-  
-  .marquee {
-    white-space: nowrap;
-  }
-  .swiperComtainer {
-    margin-top: 50px;
-    transform: rotate(-2deg);
-  }
- 
+  margin-top: 35px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.marquee-wrapper:after {
+  position: absolute;
+  content: ' ';
+  right: 0;
+  top: 0;
+  background-image: linear-gradient(to right, transparent, #fff);
+}
+
+.marquee {
+  white-space: nowrap;
+}
+.swiperComtainer {
+  margin-top: 50px;
+  transform: rotate(-2deg);
+}
+
+
+@media (max-width: 768px) { 
+   .carouselCompany {
+    display: none;
+   }
+}

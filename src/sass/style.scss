@@ -19,17 +19,8 @@
 @import 'blocks/faq';
 @import 'blocks/footer';
 @import 'blocks/footerMob';
-
-
-@import 'blocks/mediaPromo';
-@import 'blocks/mediaNotifications';
-@import 'blocks/mediajuniorLearning';
-@import 'blocks/mediajuniorMonitoringAccount';
-@import 'blocks/mediajuniorChildAccount';
-@import 'blocks/mediajusanInvestApp';
+@import 'blocks/modal';
 @import 'blocks/mediacallToAction';
-@import 'blocks/mediacontainerAppUpDownload';
-@import 'blocks/mediafaq';
 
 
 
@@ -37,6 +28,7 @@
     font-family: 'Gilroy';
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {

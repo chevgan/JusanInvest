@@ -1,60 +1,27 @@
+img{
+    max-width: 100%;
+  }
 .promo {
     background-color: #21212B;
-    height: 597px;
+    height: 100%;
+}
+.promo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.promoTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 125px;
     
 }
-
-.promoHeader {
-    display: grid;
-    grid-template-columns: 545px 1fr;
-    grid-template-rows: 125px 1fr;
-    grid-auto-rows: auto;
-    align-items: start; 
-}
-.promoHeaderTitle {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-column: 1;
-    grid-row: 2;
-    position: relative;
-}
-
-
 .subTitle {
     margin-top: 24px;
 }
 .formTitle {
     margin-top: 48px;
-}
-.promoTitle {
-    margin-top: 48px;
-}
-.promoForm {
-    margin-top: 18px;
-    input {
-        color: #AAADB2;
-    }
-}
-.promoPhoneImg {
-    grid-column: 1;
-    grid-row: 1/4;
-    margin-top: 187px;
-    padding-left: 705px;
-    z-index: 2;
-} 
-.promoPhoneImgCup{
-    grid-column: 2;
-    grid-row: 2;
-    margin-top: 170px;
-    padding-left: 55px;
-    z-index: 2;
-}
-.promoPhoneImgChat {
-    grid-column: 2;
-    grid-row: 1;
-    padding-left: 480px;
-    margin-top: 70px;
 }
 
 .promoForm input {
@@ -67,16 +34,8 @@
     border-width: 0 0 1px 0; 
     border-style: solid;
     border-color:  #bebeb658;
+    color: #fff;
     
-}
-input[type="number"] {
-	-moz-appearance: textfield;
-	-webkit-appearance: textfield;
-	appearance: textfield;
-}
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-	display: none;
 }
 
 .promoForm button {
@@ -86,10 +45,46 @@ input[type="number"]::-webkit-inner-spin-button {
     height: 46px;
     border-radius: 22px;
     margin-left: 15px;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 500;
     color: #ffffff;
     &:hover {
         transition: transform 200ms;
         transform: scale(0.94);
     }
+}
+
+.promoImgRel{
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+}
+.promoImgRel > img{
+    position: relative;
+    z-index: 2;
+}
+.promoImgRelCup{
+    position: absolute;
+    left: 1%;
+    bottom: 2%;
+    z-index: 3;
+    width: 36%;
+}
+.promoImgRelCupChat{
+    z-index: 1;
+    position: absolute;
+    right: 10%;
+    top: 2%;
+    width: 26%;
+}
+
+@media (max-width: 768px) {
+    .promoTitle {
+        margin-top: 25px;
+    }
+
+}
+
+@media (max-width: 426px) {
+
 }

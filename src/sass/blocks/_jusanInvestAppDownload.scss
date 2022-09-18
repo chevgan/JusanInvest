@@ -1,81 +1,96 @@
 .jusanInvestAppDownload {
-    height: 800px;
-    margin-top: 15px;
+    margin-top: 120px;
 }
-.jusanInvestAppDownloadBlock {
-
-}
-
-.containerAppUpDownload {
-    display: grid;
-    grid-template-columns: 1fr 30px 1fr;
-    margin-top: 32px;
-}
-.containerAppDownload {
+.containerStep {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-evenly;
+    height: 100%;
     background-color: #fff;
     border-radius: 22px;
-    min-height: 511px;
+}
+.stepOne {
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    margin-left: 35px;
+    span {
+        opacity: .7;
+        font-weight: 500;
+    }
 
-    .containerStep {
-        display: grid;
-        margin-top: 135px;
-        padding-left: 40px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 24px;
-        .stepOne {
-            display: flex;
-            align-items: center;
-            grid-row: 1;      
+}
+.stepOneTitle {
+    margin-left: 20px;
+}
 
-        }
-        .stepTwo {
-            display: flex;
-            align-items: center;
-            grid-row: 2;
-        }
-        .stepThree {
-            display: flex;
-            align-items: center;
-            grid-row: 3;
-        }
-        .stepOneTitle {
-            padding-left: 20px;
-            width: 400px;
-            span {
-                font-weight: 500;
-                font-size: 20px;
-                line-height: 24px;
-                opacity: .5;
-            }
-        }
+.stepTwo {
+    display: flex;
+    margin-left: 35px;
+    align-items: center;
+    font-size: 19px;
+    padding-right: 30px;
+    span {
+        opacity: .7;
+        font-weight: 500;
+    }
+
+}
+.stepOneTitle {
+    margin-left: 20px;
+}
+
+
+.stepThree {
+    display: flex;
+    margin-left: 35px;
+    align-items: center;
+    font-size: 19px;
+    padding-right: 30px;
+    span {
+        opacity: .7;
+        font-weight: 500;
+    }
+
+}
+.stepOneTitle {
+    margin-left: 20px;
+}
+
+.storeIcons {
+    margin-top: 10px;
+    img {
+        width: 77px;
     }
 }
+.lastGp {
+    margin-left: 20px;
+    img {
+        width: 73px;
+    }
+}
+
 .containerAppUpDownloadVideo {
     background-color: #fff;
     border-radius: 22px;
-    min-height: 511px;
-    grid-column: 3;
     video {
-        max-width: 700px;
+        max-width: 100%;
         width: 100%;
         border-radius: 22px;
         margin: auto;
         cursor: pointer;
     }
-    .videoTitle {
-        margin-top: 32px;
-        padding-left: 53px;
-    }
-    .videoSubTitle {
-        padding-left: 53px;
-        width: 450px;
-        position: absolute;
-    }
-    .videoImg {
-        display: grid;
-        justify-content: end;
-        margin-top: 84px;
-    }
 }
 
+@media (max-width: 991px) {
+    .stepOne {   
+        padding: 30px 20px 30px 1px;
+    }
+    .stepTwo {
+        padding: 30px 20px 30px 1px;
+    }
+    .stepThree {
+        padding: 30px 20px 30px 1px;
+    }
+}

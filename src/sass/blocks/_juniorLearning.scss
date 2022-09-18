@@ -1,39 +1,69 @@
 .juniorLearning {
-    height: 511px;
-    margin-top: 32px;
+    height: 100%;
+    margin-top: 56px;
+    overflow: hidden;
+    .container {
+        background-color: #fff;
+        border-radius: 22px;
+        padding: 0;
+        overflow: hidden;
+    }
+    .juniorLearningTitleBlock {
+        margin-top: 20%;
+        margin-left: 20%;
+        .title_fz36 {
+            font-size: 31px;
+            font-weight: 700;
+            line-height: 34px;
+        }
+
+    }
+    .juniorLearningSubTitle {
+        margin-top: 10px;
+        font-weight: 400;
+
+        br {
+            display: none;
+        }
+    }
+    .juniorLearningImg {
+        overflow: hidden;
+        img {
+            max-width: 110%;
+        }
+    }
 }
-.juniorLearningBlock {
-    background: white;
-    border-radius: 22px;
-    display: grid;
-    grid-template-columns: 1fr  1fr;
-    grid-template-rows: 1fr;
-    align-items: start;
+@media (max-width: 992px) {
+    .juniorLearning .juniorLearningTitleBlock {
+        margin-top: 3%;
+        margin-left: 3%;
+    }
 }
 
-.juniorLearningTitleBlock {
-    position: absolute;
-    grid-column: 1;
-    z-index: 2;
-    padding-left: 125px;
-}
-
-.juniorLearningImg {
-    position: relative;
-    grid-column: 2;
-}
-.juniorLearningBtn {
-    grid-column: 1;
-    margin-top: 32px;
-
-}
-.juniorLearningTitle {
-    grid-column: 1;
-    margin-top: 125px;
-
-}
-.juniorLearningSubTitle {
-    grid-column: 1;
-    margin-top: 12px;
-
+@media (max-width: 992px) {
+    .juniorLearning {
+        .title_fz36 {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 28px;
+        }
+    }
+    .juniorNotifications .juniorNotificstionsTitleBlock {
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    .juniorNotificationsBtn {
+        margin-top: 19px;
+    }
+    .juniorNotificationsImg {
+        padding-left: 24px;
+        img {
+            max-width: 115%;
+        }
+    }
+    .juniorNotificationsImg {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
 }

@@ -1,5 +1,11 @@
 .faq {
     display: flex;
+    .title_fz45 {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      margin-bottom: 50px;
+  }
 }
 .sectionFaq {
     justify-content: space-between;
@@ -16,7 +22,6 @@
     gap: 15px;
     font-size: 15px;
     font-weight: 500;
-
 }
 
 .accordion__header::after {
@@ -37,7 +42,8 @@
   .accordion__item {
     margin-bottom: 0.5rem;
     border-radius: 0.25rem;
-    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 15%);
+    margin-top: 50px;
+/*     box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 15%); */
   }
 
   .accordion__header {
@@ -93,4 +99,17 @@
 
   .accordion__item:not(.accordion__item_show) .accordion__body {
     display: none;
+  }
+
+  @media (max-width: 768px){ 
+    .faq {
+      display: flex;
+      .title_fz45 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        margin-bottom: 50px;
+        margin-top: 80px;
+    }
+  }
   }

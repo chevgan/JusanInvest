@@ -1,4 +1,4 @@
-.footerMob {
+/* /* .footerMob {
     display: flex;
     margin-top: 100px;
 }
@@ -38,9 +38,9 @@
   .accordion__item {
     margin-bottom: 0.5rem;
     border-radius: 0.25rem;
-    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 15%);
-  }
-
+/*     box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 15%); */
+  
+/*
   .accordion__header {
     display: flex;
     justify-content: space-between;
@@ -217,15 +217,11 @@
     .footerDescr {
         height: 87px;
     }
-    .carouselCompany {
-        display: none;
-    }
+
 }
 
   @media (min-width: 728px){
-    .carouselCompany {
-        display: none;
-    }
+
     .footerMob {
         display: block;
     }
@@ -277,11 +273,8 @@
         display: block;
     }
     }
-    .carouselCompany {
-        display: block;
-    }
     .storeIcon {
         display: block;
     }
     
-}
+}  */
